@@ -21,7 +21,7 @@ export class JoinMatchUseCase implements UseCase<JoinMatchUseCaseIO.Input, JoinM
 
     const player2 = new Player({name: input.playerName})
 
-    match.assignPlayer2(player2)
+    match.player2 = player2
     
     await this.deps.matchRepository.save(match)
 

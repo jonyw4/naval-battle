@@ -20,11 +20,11 @@ describe('Join Match', () => {
           matchRepository
         })
         await useCase.execute({
-          playerName: 'Jony',
+          playerName: 'Ana',
           matchId: fakeMatch.id
         })
 
-        expect(fakeMatch.isReadyToStart).toBe(true)
+        expect(fakeMatch.player2.name).toBe('Ana')
       })
     })
   })
