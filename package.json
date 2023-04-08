@@ -1,4 +1,5 @@
 {
+	"name": "naval-battle",
 	"devDependencies": {
 		"typescript": "^5.0.4",
 		"vite": "^4.2.1",

@@ -1,5 +1,9 @@
 {
+  "name": "@naval-battle/backend",
   "scripts": {
     "test:unit": "vitest test/unit"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
   }
 }
