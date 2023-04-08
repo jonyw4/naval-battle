@@ -4,7 +4,7 @@ interface PlayerProps {
   name: string
 }
 
-export class Player extends Entity {
+export class Player extends Entity<PlayerProps> {
   constructor(props: PlayerProps, id?: string){
     super(props, id)
   }
